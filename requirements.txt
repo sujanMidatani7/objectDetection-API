@@ -1,4 +1,6 @@
 fastapi
+fastapi[standard]
 python-multipart
 ultralytics
 uvicorn
+opencv-python-headless  # Replace opencv-python with opencv-python-headless

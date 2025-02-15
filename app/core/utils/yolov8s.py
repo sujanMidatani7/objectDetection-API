@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 import base64
 
-model = YOLO("app/model/yolov8s.pt") 
+model = YOLO("app/core/model/yolov8s.pt") 
 def detect_objects(name):
     # name = "man-bmw.jpg"
     img = cv2.imread(name)
